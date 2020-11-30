@@ -1,0 +1,24 @@
+{
+    "id": "5A0F954D",
+    "path": "~/git/blog5/themes/toha/layouts/partials/helpers/get-author-image.html",
+    "project_path": "themes/toha/layouts/partials/helpers/get-author-image.html",
+    "type": "html",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1606702558432.0,
+    "source_on_save": false,
+    "relative_order": 9,
+    "properties": {
+        "cursorPosition": "4,52",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1606576265,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1606576265,
+    "read_only": false,
+    "read_only_alternatives": []
+}
