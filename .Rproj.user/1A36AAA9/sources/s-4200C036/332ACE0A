@@ -1,0 +1,24 @@
+{
+    "id": "332ACE0A",
+    "path": "~/git/blog5/data/en/sections/about.yaml",
+    "project_path": "data/en/sections/about.yaml",
+    "type": "yaml",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1606697165229.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "cursorPosition": "17,28",
+        "scrollLine": "7"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1606700720,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1606700720420,
+    "read_only": false,
+    "read_only_alternatives": []
+}
