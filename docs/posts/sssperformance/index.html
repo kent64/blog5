@@ -7,20 +7,20 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
 
-<link rel="stylesheet" href="/blog/assets/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="/blog/assets/css/layouts/main.css"/>
-<link rel="stylesheet" href="/blog/assets/css/style.css"/>
-<link rel="stylesheet" href="/blog/assets/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/blog5/assets/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/blog5/assets/css/layouts/main.css"/>
+<link rel="stylesheet" href="/blog5/assets/css/style.css"/>
+<link rel="stylesheet" href="/blog5/assets/css/navigators/navbar.css"/>
 
 
 <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 
 
-<link rel="icon" type="image/png" href="/blog/images/site/favicon.png" />
+<link rel="icon" type="image/png" href="/blog5/images/site/favicon.png" />
 
 
-<link rel="stylesheet" href="/blog/assets/css/style.css"/>
+<link rel="stylesheet" href="/blog5/assets/css/style.css"/>
 
     
 <meta name="description" content="Secondary School Student Performance" />
@@ -28,8 +28,8 @@
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
 />
-<link rel="stylesheet" href="/blog/assets/css/layouts/single.css"/>
-<link rel="stylesheet" href="/blog/assets/css/navigators/sidebar.css">
+<link rel="stylesheet" href="/blog5/assets/css/layouts/single.css"/>
+<link rel="stylesheet" href="/blog5/assets/css/navigators/sidebar.css">
 
 
     
@@ -67,8 +67,8 @@ if (!doNotTrack) {
       <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="/blog">
-      <img src="/blog/images/site/main-logo.png">my ePortfolio</a>
+    <a class="navbar-brand" href="/blog5">
+      <img src="/blog5/images/site/main-logo.png">my ePortfolio</a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -80,8 +80,8 @@ if (!doNotTrack) {
     </div>
   </div>
   
-  <img src="/blog/images/site/main-logo.png" class="d-none" id="main-logo">
-  <img src="/blog/images/site/inverted-logo.png" class="d-none" id="inverted-logo">
+  <img src="/blog5/images/site/main-logo.png" class="d-none" id="main-logo">
+  <img src="/blog5/images/site/inverted-logo.png" class="d-none" id="inverted-logo">
 </nav>
 
 
@@ -99,13 +99,13 @@ if (!doNotTrack) {
   <div class="content">
     <div class="container p-0 read-area">
       
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://kent64.github.io/blog/blog/assets/images/default-hero.jpg);'>
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://kent64.github.io/blog5/blog5/assets/images/default-hero.jpg);'>
       </div>
 
       
       <div class="page-content">
         <div class="author-profile ml-auto align-self-lg-center">
-          <img class="rounded-circle" src='/blog/assets/images/default-avatar.png'/>
+          <img class="rounded-circle" src='/blog5/assets/images/default-avatar.png'/>
           <h5 class="author-name">Brendan Kent</h5>
           <p>November 1, 2020</p>
         </div>
@@ -116,8 +116,8 @@ if (!doNotTrack) {
 
         <div class="post-content" id="post-content">
           
-<link href="/blog/posts/sssperformance/index_files/anchor-sections/anchor-sections.css" rel="stylesheet" />
-<script src="/blog/posts/sssperformance/index_files/anchor-sections/anchor-sections.js"></script>
+<link href="/blog5/posts/sssperformance/index_files/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/blog5/posts/sssperformance/index_files/anchor-sections/anchor-sections.js"></script>
 
 <div id="TOC">
 <ul>
@@ -320,20 +320,20 @@ studentdf$studytime.x = factor(studentdf$studytime.x,levels=c(1:4),labels = c(&q
 studentdf$studytime.y = factor(studentdf$studytime.y,levels=c(1:4),labels = c(&quot;1 - &lt;2 hours&quot;,&quot;2 - 2 to 5 hours&quot;, &quot;3 - 5 to 10 hours&quot;,&quot;4 - &gt;10 hours&quot;), ordered=T)
 t &lt;- studentdf %&gt;% count(medu)
 ggplot(t, aes(x=&quot;&quot;,y=n, fill=medu)) + geom_bar(width = 1, stat = &quot;identity&quot;)</code></pre>
-<p><img src="/blog/posts/sssperformance/index_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p><img src="/blog5/posts/sssperformance/index_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
 <div id="normal-distrubution" class="section level3">
 <h3><span class="header-section-number">3.2.1</span> Normal Distrubution</h3>
 <p>We would like to find a variable which has a normal distribution, because we can use parametric tests on this variable. This is ideal when we want to make inference from our sample to our population. These parametric tests are more powerful because they use all values a variable has. Let’s check if grade results fits the bill for us.</p>
 Finally we get to draw a chart. First the humble scatter plot:
 <div class="figure"><span id="fig:unnamed-chunk-8"></span>
-<img src="/blog/posts/sssperformance/index_files/figure-html/unnamed-chunk-8-1.png" alt="G3 - final grade unsorted" width="672" />
+<img src="/blog5/posts/sssperformance/index_files/figure-html/unnamed-chunk-8-1.png" alt="G3 - final grade unsorted" width="672" />
 <p class="caption">
 Figure 3.2: G3 - final grade unsorted
 </p>
 </div>
 Or if we sort the grades in ascending order.
 <div class="figure"><span id="fig:unnamed-chunk-9"></span>
-<img src="/blog/posts/sssperformance/index_files/figure-html/unnamed-chunk-9-1.png" alt="G3 - final grade sorted" width="672" />
+<img src="/blog5/posts/sssperformance/index_files/figure-html/unnamed-chunk-9-1.png" alt="G3 - final grade sorted" width="672" />
 <p class="caption">
 Figure 3.3: G3 - final grade sorted
 </p>
@@ -342,7 +342,7 @@ Figure 3.3: G3 - final grade sorted
 To understand skew we need to starting visualizing the data. We do this by plotting what is known as a frequency distribution or histogram.<br />
 
 <div class="figure"><span id="fig:unnamed-chunk-10"></span>
-<img src="/blog/posts/sssperformance/index_files/figure-html/unnamed-chunk-10-1.png" alt="G3 - final grade histogram" width="672" />
+<img src="/blog5/posts/sssperformance/index_files/figure-html/unnamed-chunk-10-1.png" alt="G3 - final grade histogram" width="672" />
 <p class="caption">
 Figure 3.4: G3 - final grade histogram
 </p>
@@ -351,7 +351,7 @@ Figure 3.4: G3 - final grade histogram
 <p>These zeros which we find the grade results could also be a result of missing data.
 and now again we check the histogram</p>
 <div class="figure"><span id="fig:unnamed-chunk-12"></span>
-<img src="/blog/posts/sssperformance/index_files/figure-html/unnamed-chunk-12-1.png" alt="G3 - final grade histogram no zeros" width="672" />
+<img src="/blog5/posts/sssperformance/index_files/figure-html/unnamed-chunk-12-1.png" alt="G3 - final grade histogram no zeros" width="672" />
 <p class="caption">
 Figure 3.5: G3 - final grade histogram no zeros
 </p>
@@ -435,7 +435,7 @@ Figure 3.5: G3 - final grade histogram no zeros
 <p>Like plot the histogram again and add a normal distribution curve using the grade scores:</p>
 <pre><code>## Warning: Removed 39 rows containing non-finite values (stat_bin).</code></pre>
 <div class="figure"><span id="fig:unnamed-chunk-13"></span>
-<img src="/blog/posts/sssperformance/index_files/figure-html/unnamed-chunk-13-1.png" alt="G3 - final grade histogram with normal curve" width="672" />
+<img src="/blog5/posts/sssperformance/index_files/figure-html/unnamed-chunk-13-1.png" alt="G3 - final grade histogram with normal curve" width="672" />
 <p class="caption">
 Figure 3.6: G3 - final grade histogram with normal curve
 </p>
@@ -445,7 +445,7 @@ The kurtosis does not look to be a problem.</p>
 <p>We not need to examine that skew in detail. There is another useful graph that we can inspect to see if a distribution is normal called a
 Q-Q plot (quantile–quantile plot). A quantile is the proportion of cases we find below a certain value.</p>
 <div class="figure"><span id="fig:unnamed-chunk-14"></span>
-<img src="/blog/posts/sssperformance/index_files/figure-html/unnamed-chunk-14-1.png" alt="G3 - final grade Q-Q plot" width="672" />
+<img src="/blog5/posts/sssperformance/index_files/figure-html/unnamed-chunk-14-1.png" alt="G3 - final grade Q-Q plot" width="672" />
 <p class="caption">
 Figure 3.7: G3 - final grade Q-Q plot
 </p>
@@ -909,7 +909,7 @@ kendall more reilable</p>
     
       
       <div class="col-md-6 previous-article">
-        <a href="/blog/posts/2020-11-30-new-great-thing-i-want-to-say/" class="btn btn-outline-info">
+        <a href="/blog5/posts/2020-11-30-new-great-thing-i-want-to-say/" class="btn btn-outline-info">
           <span><i class="fas fa-chevron-circle-left"></i> Prev</span>
           <br />
           <span>new great thing I want to say</span>
@@ -926,7 +926,7 @@ kendall more reilable</p>
           
         
         <div class="col-md-6 next-article">
-          <a href="/blog/posts/2015-07-23-r-rmarkdown/" class="btn btn-outline-info">
+          <a href="/blog5/posts/2015-07-23-r-rmarkdown/" class="btn btn-outline-info">
             <span>Next <i class="fas fa-chevron-circle-right"></i></span>
             <br />
             <span>Hello R Markdown</span>
@@ -1032,7 +1032,7 @@ kendall more reilable</p>
     <div class="row text-left">
       <div class="col-md-4">
         <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
-          <img src="/blog/assets/images/inverted-logo.png">
+          <img src="/blog5/assets/images/inverted-logo.png">
           Toha
         </a>
       </div>
@@ -1040,7 +1040,7 @@ kendall more reilable</p>
       <div class="col-md-4 text-right">
         <a id="hugo" href="https://gohugo.io/">Powered by
         <img
-          src="/blog/assets/images/hugo-logo-wide.svg"
+          src="/blog5/assets/images/hugo-logo-wide.svg"
           alt="Hugo Logo"
           height="18"
         />
@@ -1050,18 +1050,18 @@ kendall more reilable</p>
   </div>
 </footer>
 
-    <script src="/blog/assets/js/jquery-3.4.1.min.js"></script>
-<script src="/blog/assets/js/popper.min.js"></script>
-<script src="/blog/assets/js/bootstrap.min.js"></script>
+    <script src="/blog5/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/blog5/assets/js/popper.min.js"></script>
+<script src="/blog5/assets/js/bootstrap.min.js"></script>
 
-<script src="/blog/assets/js/navbar.js"></script>
-<script src="/blog/assets/js/main.js"></script>
+<script src="/blog5/assets/js/navbar.js"></script>
+<script src="/blog5/assets/js/main.js"></script>
 
 
     
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-<script src="/blog/assets/js/single.js"></script>
+<script src="/blog5/assets/js/single.js"></script>
 <script>
   hljs.initHighlightingOnLoad();
 </script>
