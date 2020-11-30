@@ -49,7 +49,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo URL of your site
-  gitRepo: https://github.com/kent64/blog
+  gitRepo: https://kent64.github.io/blog5/
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
